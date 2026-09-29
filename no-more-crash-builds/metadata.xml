@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>No More Crash Builds</name>
+    <directory>no-more-crash-builds</directory>
+    <id>3808770484</id>
+    <description>No More Crash Builds
+
+Your broken build shouldn't break the game.
+
+Haemolacria + Parasite, Cricket's Body + Brimstone, Trisagion with tear splitters,
+Dr. Fetus + Scatter/Sad Bombs... the runs you dream about are the ones that freeze
+or crash the game. This mod keeps them alive WITHOUT nerfing them.
+
+Always on, from the first room. Below the limits it does nothing at all.
+When the room gets crowded:
+
+- Too many tears: pure visual effects (tear splash, blood particles, impact poofs)
+  are skipped. Creep is never touched, it deals damage.
+  Tears fired during the chaos stay quiet until they're gone, so the splash
+  doesn't all come back at once and lag you right after the storm.
+- Way too many tears: new tears stop splitting, and the damage the split tears
+  would have dealt goes into the parent tear. Same damage, a fraction of the entities.
+- Too many bombs: new bombs stop spawning more bombs. They still explode.
+
+A tiny square at the top of the screen tells you what's going on:
+green = normal, yellow = skipping splash effects, red = merging split tears or
+stopping bomb chains. It goes back to green on its own. Can be turned off.
+
+Mod Config Menu (optional):
+- Protection ON/OFF (turn it off and the other options hide)
+- Hide splash FX at: 25 to 150 tears (default 75)
+- Stop splitting at: 75 to 300 tears (default 150)
+- Stop bomb chains at: 6 to 24 bombs (default 12)
+- Status dot ON/OFF
+- Show counter (tears, bombs, lasers, effects on screen)
+
+Lower = safer, higher = prettier.
+No REPENTOGON needed.
+</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Hazards"/>
+    <tag id="Tweaks"/>
+    <tag id="Graphics"/>
+</metadata>

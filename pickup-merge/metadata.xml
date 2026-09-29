@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Pickup Merge</name>
+    <directory>pickup-merge</directory>
+    <id>3808771551</id>
+    <description>
+Pickup Merge
+
+Too many pickups on the floor? Merge them.
+
+Rooms full of coins, keys, bombs and hearts can tank your FPS. This mod merges
+them into their bigger versions, so the value stays and the entity count drops.
+
+- Coins: 2 pennies = double penny, 5 = nickel, 10 = dime, 50 = lucky penny
+  (2 double pennies + 1 penny = nickel, it all adds up)
+- Keys: 2 keys = double key
+- Bombs: 2 bombs = double bomb, 40 = giga bomb
+- Red hearts: 2 halves = full heart, 2 full = double heart
+- Soul hearts: 2 halves = soul heart, 2 soul hearts = black heart
+
+Red and soul hearts never mix.
+
+By default it merges when you leave a room and come back (never on your first
+visit). You can also merge with a key instead, or both.
+
+Never touched: shop items, &quot;choose one&quot; pickups, and special pickups
+(sticky nickel, golden pennies/keys/bombs, lucky penny, charged key, troll bombs,
+eternal/bone/rotten/golden hearts...).
+
+Mod Config Menu (optional):
+- Pickup Merge ON/OFF (turn it off and the other options hide)
+- Merge on: Re-enter room / Key press / Both (default Re-enter room)
+- Merge key: any keyboard key (default M)
+- Big merges ON/OFF: 50 coins -&gt; Lucky penny, 40 bombs -&gt; Giga bomb,
+  2 soul -&gt; Black heart. These trade value for something special,
+  turn them off if you'd rather keep the full value.
+
+No REPENTOGON needed.
+</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Pickups"/>
+    <tag id="Rooms"/>
+    <tag id="Tweaks"/>
+</metadata>

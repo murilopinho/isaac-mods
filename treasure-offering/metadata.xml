@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Treasure Offering</name>
+    <directory>treasure-offering</directory>
+    <id>3810030569</id>
+    <description>
+The treasure room accepts offerings... but only after the floor's guardian falls.
+
+Leave a trinket on the floor of the treasure room. Once the floor's boss is dead,
+come back: your offering becomes a Cracked Key.
+
+- One offering per floor. Leave more than one and only the first is taken.
+- Order doesn't matter: offer before or after the boss, it happens when you walk back in.
+- XL floors: both bosses must fall.
+
+Mod Config Menu (optional): Treasure Offering ON/OFF.
+</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Tweaks"/>
+</metadata>
