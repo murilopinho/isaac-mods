@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Enemy Drop Loot V2</name>
+    <directory>enemy-loot-drop-v2</directory>
+    <id>3786937566</id>
+    <description>
+Fork of 赖's Enemy Loot Drop. Credits to baobao2234 for the original code.
+
+Enemies drop items and pickups when killed. Normal enemies, champions and bosses
+each have separate, fully configurable rates in Mod Config Menu.
+
+Each room has a max on how much it can drop (2 items / 5 pickups in normal rooms,
+3 / 8 in big rooms, 5 / 12 in boss rooms), so you can't farm one room by leaving
+and coming back. Your rates work the same until a room hits the cap. Co-op
+multiplies it by the number of players. Normal/Hard only, no cap in Greed.
+
+Works in Greed and Greedier. Pulls from the Greed item pools (deeper floors unlock
+more pools: shop, then devil, then angel) with reduced rates so the economy stays
+intact.
+
+Character-aware drops:
+- Keeper gets coins (heavily reduced in Greed so shopping still matters)
+- The Lost / Tainted Lost get Holy Cards and runes
+- Bethany / The Forgotten variants get soul and bone hearts
+- Tainted Judas leans black and soul hearts
+- Blue Baby gets soul hearts
+- Jacob &amp; Esau and Tainted Lazarus can drop 2 items per kill, one for each half
+  (they hold separate inventories). Optional, off by default.
+
+Highly configurable:
+- Per-type drop rates (Normal / Champion / Boss)
+- Unlock filter: Off / Unlocked only / Seen only
+- Minimum quality + Quality Lock (pin drops to one exact tier)
+- Passives-only, actives-only, no Devil/Angel items
+- Force Pool, including a Chaos option (fully random item, ignores floor pools)
+- Local co-op: a separate drop per player (Fair or Chaos split)
+- Twins (Jacob &amp; Esau) and Tainted Lazarus double drop toggle
+- Boss Rush limit: cap the ~20 bosses in Boss Rush to 1 drop total (or 1 per
+  wave), instead of every single one rolling separately. Off by default.
+- Story bosses drop nothing by default: Isaac, ???, Satan, Mega Satan, Mother,
+  Hush, Delirium, The Lamb, Dogma and The Beast never drop loot, and neither do the
+  other bosses in The Void. Blue Womb drops nothing at all. Flip the toggle to
+  turn it all back on.
+- Reset to Defaults button
+
+MOVED OUT: the starting-loadout side of this mod (Starting Trinket Picker, Gulp
+keybind, Gulp Innate Trinket, Active to Pocket Active, Tainted Cain Push Mode and the
+Easy Greed/Greedier Counterfeit Penny) is no longer here. It became its own mod,
+Isaac QoL Kit, so this one stays what its name says: kill an enemy, get loot. Your
+old settings for those options are simply ignored, nothing else changes.
+
+Requires: Mod Config Menu Pure
+REPENTOGON: optional (improves unlock filtering and character-item compatibility).
+Works fine without it.
+
+Disable the original Enemy Loot Drop if you have it. Running both doubles everything.
+Safe to run alongside Isaac QoL Kit - the two mods don't overlap anymore.
+
+Huge thanks to BackToTheBasement for the first video on this mod, and for the
+feedback that helped shape this update. Go check his channel:
+https://www.youtube.com/@BackToTheBasement_268
+
+My first mod, expect bugs.</description>
+    <version>2.28</version>
+    <visibility>Public</visibility>
+    <tag id="Items"/>
+    <tag id="Active Items"/>
+    <tag id="Trinkets"/>
+    <tag id="Cards"/>
+    <tag id="Pickups"/>
+    <tag id="Floors"/>
+    <tag id="Enemies"/>
+    <tag id="Bosses"/>
+    <tag id="Tweaks"/>
+</metadata>

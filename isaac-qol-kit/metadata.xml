@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Isaac QoL Kit</name>
+    <directory>isaac-qol-kit</directory>
+    <id>3805423430</id>
+    <description>
+Isaac QoL Kit
+Version 0.4 - BETA
+
+A handful of quality-of-life improvements, all optional, all in Mod Config Menu.
+
+Spinoff of my other mod, Enemy Drop Loot V2, which had grown into two mods glued
+together. The drop engine stayed there; the loadout/convenience side lives here.
+
+Requires: Mod Config Menu Pure
+REPENTOGON: optional (improves unlock filtering). Works fine without it.
+
+Safe to run alongside Enemy Drop Loot V2: the Starting Trinket Picker, Gulp
+keybind, Active to Pocket and Easy Greed features moved here for good, nothing
+left over there to duplicate them.
+
+--- LOADOUT ---
+- Starting Trinket Picker: each character lays out a curated row of trinkets on
+  the ground at run start, pick one. Jacob &amp; Esau and Tainted Lazarus each get
+  their own row; Tainted Eden rerolls hers on every hit.
+- Gulp Innate Trinket: swallows the character's built-in trinket at run start,
+  keeping its effect but freeing the trinket slot.
+- Active to Pocket Active: moves your starting active item into the pocket slot.
+- Gulp keybind: swallow the trinkets you're currently holding, with a
+  configurable key and location (anywhere / starting room every floor / starting
+  room once per run).
+
+--- BONUS (free stuff at run start, off by default) ---
+- Starting Blessing: pick 1 of 23 items (Birthright, PHD, More Options, Chaos,
+  Sacred Orb...) or Random, and every run starts with it.
+- Starting Item: 1 hand-picked item per character (34 of them, Eden and Tainted
+  Eden left out on purpose). Actives spawn on the floor so you don't lose your
+  own. With REPENTOGON you can skip items you haven't unlocked yet.
+- Starting Pocket Item: a random active spawns in the starting room (needs
+  Active to Pocket on).
+
+--- CHARACTER FIXES ---
+- Holy Mantle for Lost Jacob: Tainted Jacob keeps his Holy Mantle effect while
+  in the Lost form (the form that's normally one-hit-kill).
+- Rainbow Poop Mantle: destroying a rainbow poop gives Tainted Lost a Holy Card
+  charge.
+- Tainted Cain Push Mode: keybind to shove a pickup away instead of absorbing it
+  (T.Cain absorbs pickups on touch by default; this lets you choose).
+
+--- GREED MODE ---
+- Half-Price Shop (Greed/Greedier): starts a Greed run with the Steam Sale item,
+  so the shop is half price from the start.
+- Half-Price Shop (Normal/Hard): the same Steam Sale grant, but for regular runs
+  outside Greed Mode. Separate toggle, off by default since it changes economy.
+- Easy Greed/Greedier: starts with a Counterfeit Penny (grants a Gulp pill when
+  you pick it up). In Greedier it's offered as a choice in the trinket row
+  (Money vs. Comfort), not a free grant.
+
+--- MACHINES &amp; PROPS ---
+- No Jam: a jammed Shop or Greed donation machine is fixed when you leave
+  and re-enter the room.
+- Faster Eternal Chest: the Eternal Chest stops making you wait to open it.
+- Instant Fires &amp; Poops: in a cleared room, regular fireplaces and poops die on
+  the first hit instead of taking multiple.
+
+--- ROOM MECHANICS ---
+- Bombable Devil Statue: bomb the statue in a Devil Room, the deal items
+  disappear and a Fallen Angel spawns in their place. Kill it for a free item.
+  One per floor, and it won't work if you already took a deal in that room.
+- Angel Drop Item: kill Uriel or Gabriel again while already holding both
+  Key Pieces (Angel Room, Sacrifice Room, or Error Room) - drops a free item.
+  Always by default; turn off &quot;Always Drops&quot; to make it a 10-50% chance.
+- Auto-Collect Pickups: in a cleared room, loose coins and keys drift toward
+  you. Off by default.
+
+--- CREDITS ---
+Several features here are ports of third-party mods, reimplemented keeping the
+original behavior intact (with a real bug fixed in each port along the way - see
+patch notes below for details). Go subscribe to the originals:
+- Holy Mantle For Lost Jacob (Dijiphos)
+- Rainbow Poop Gives Holy Mantle (Reisen)
+- Easier Greed Mode (Noxteryn) - the Steam Sale idea
+- Faster Eternal Chest (Vinnie)
+- Instant Fires and Poops (Matt, and hgrfff for the fire part)
+- Bombable Devil Statue (Simsure)
+- Angels Drop Items (Sokyran)
+</description>
+    <version>0.6</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Active Items"/>
+    <tag id="Trinkets"/>
+    <tag id="Pickups"/>
+    <tag id="Player Characters"/>
+    <tag id="Rooms"/>
+    <tag id="Bosses"/>
+</metadata>

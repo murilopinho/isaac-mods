@@ -1,10 +1,13 @@
 # Isaac Mods
 
 Small Lua mods for **The Binding of Isaac: Repentance**, all published on the Steam Workshop.
-No REPENTOGON needed. Mod Config Menu is optional in all of them.
+No REPENTOGON needed. Mod Config Menu is optional in all of them,
+except Isaac QoL Kit and Enemy Drop Loot V2, which need it.
 
 | Mod | What it does | Workshop |
 |---|---|---|
+| [Isaac QoL Kit](isaac-qol-kit/) | The big one. Starting trinket picker, starting item/blessing per character, active to pocket, Gulp keybind, machine and room tweaks, Greed helpers. Everything optional, all in Mod Config Menu. | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=3805423430) |
+| [Enemy Drop Loot V2](enemy-drop-loot-v2/) | Enemies drop items and pickups when killed, with separate rates for normal enemies, champions and bosses. Per-room cap, character-aware drops, Greed support, quality and pool filters. | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=3786937566) |
 | [No More Crash Builds](no-more-crash-builds/) | Keeps broken builds (Haemolacria + Parasite, Dr. Fetus + Scatter Bombs...) from freezing or crashing the game, without nerfing them. Skips pure visual effects under load and folds split-tear damage into the parent tear. | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=3808770484) |
 | [Pickup Merge](pickup-merge/) | Merges piles of coins, keys, bombs and hearts into their bigger versions. Same value, fewer entities, better FPS. | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=3808771551) |
 | [Treasure Offering](treasure-offering/) | Leave a trinket in the Treasure Room. Once the floor's boss is dead, it turns into a Cracked Key. One per floor. | [link](https://steamcommunity.com/sharedfiles/filedetails/?id=3810030569) |
