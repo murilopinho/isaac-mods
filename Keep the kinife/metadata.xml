@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Free Flesh Door</name>
+    <directory>flesh-door</directory>
+    <id>3811982185</id>
+    <description>
+Mom's flesh door, your way.
+
+- Beat Mom on Mausoleum/Gehenna II and you get the Knife Pieces you're missing.
+  Walk into the flesh door and it opens like vanilla.
+- Keep the knife (ON by default): opening the door doesn't use the pieces up.
+  The knife stays with you.
+
+- The door has to be unlocked on your save first.
+- Off during the Ascent and in Greed mode.
+
+Mod Config Menu (optional): Free Flesh Door ON/OFF and Keep the knife ON/OFF.
+</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Rooms"/>
+    <tag id="Bosses"/>
+    <tag id="Tweaks"/>
+</metadata>

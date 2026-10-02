@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Blood Loan</name>
+    <directory>blood-loan</directory>
+    <id>3811633004</id>
+    <description>
+The room lends you blood. What you don't give back, it takes.
+
+- Once per run: the first Sacrifice Room you walk into gives you 3.5 hearts on loan.
+  Red hearts first, soul hearts if you can't hold red.
+  Just seeing one on the map doesn't count, only walking in. Every room after that is normal.
+- Inside that room every hit is only half a heart (Wafer effect).
+- Leave the room and whatever you didn't spend on the spikes is taken back.
+  It's not damage: no flinch, your devil deal chance is safe.
+- Anything you gain inside the room (like a soul heart payout) is yours to keep.
+- It never takes your last half heart.
+- Keeper and Tainted Keeper get 5 coins on the floor instead, and keep them.
+- The Forgotten and Bethany get 3.5 red hearts on the floor, no payback.
+- The Lost and Tainted Lost get... nothing. No Wafer effect for Keeper and Lost either.
+
+Mod Config Menu (optional): Blood Loan ON/OFF.
+</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Pickups"/>
+    <tag id="Rooms"/>
+    <tag id="Tweaks"/>
+</metadata>

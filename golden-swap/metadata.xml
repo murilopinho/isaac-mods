@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Golden Swap</name>
+    <directory>golden-swap</directory>
+    <id>3811973480</id>
+    <description>
+Found a second Golden Key? In vanilla it just vanishes. Not anymore.
+
+- Golden Key while you already have one: you get a Golden Bomb instead.
+- Golden Bomb while you already have one: you get a Golden Key instead.
+- Already have both? Golden Key gives 10 keys, Golden Bomb gives 14 bombs.
+
+Mod Config Menu (optional): Golden Swap ON/OFF.
+</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Pickups"/>
+    <tag id="Tweaks"/>
+</metadata>

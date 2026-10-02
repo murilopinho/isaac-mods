@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Shop Gulp</name>
+    <directory>shop-gulp</directory>
+    <id>3811313260</id>
+    <description>
+Found a trinket you never want to let go of? The shopkeeper has something for you.
+
+- Every 2nd shop you walk into leaves a Gulp! pill on the floor.
+- Up to 2 pills per run.
+- Only the first visit to each shop counts.
+
+Mod Config Menu (optional): Shop Gulp ON/OFF.
+</description>
+    <version>1.1</version>
+    <visibility>Private</visibility>
+    <tag id="Lua"/>
+    <tag id="Trinkets"/>
+    <tag id="Pills"/>
+    <tag id="Tweaks"/>
+</metadata>

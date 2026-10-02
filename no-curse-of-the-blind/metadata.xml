@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>No Curse of the Blind</name>
+    <directory>no-curse-of-the-blind</directory>
+    <id>3811316323</id>
+    <description>
+No more &quot;?&quot; on pedestals. Curse of the Blind is gone for good.
+
+But the curses want something back...
+Any floor that would have no curse gets an extra 15% chance to roll one:
+Darkness, the Lost, the Unknown or the Maze.
+
+- Blind never appears, anywhere, any character.
+- No extra curse on Basement I, Blue Womb, Home, the Ascent, challenges,
+  or with Black Candle.
+- The extra roll follows the floor seed: same seed, same curse.
+
+Mod Config Menu (optional): turn the mod or just the extra curse chance ON/OFF.
+</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
