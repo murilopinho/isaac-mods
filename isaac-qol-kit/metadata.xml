@@ -46,6 +46,10 @@ left over there to duplicate them.
   charge.
 - Tainted Cain Push Mode: keybind to shove a pickup away instead of absorbing it
   (T.Cain absorbs pickups on touch by default; this lets you choose).
+- Lost Bed Mantle: as The Lost or Tainted Lost, touch a bed (Isaac's or Mom's)
+  and get a Holy Card charge. The bed still works like normal. One charge per
+  bed. If Tainted Lost already has his shield up he gets nothing extra, that's on
+  purpose (it doesn't stack).
 
 --- GREED MODE ---
 - Half-Price Shop (Greed/Greedier): starts a Greed run with the Steam Sale item,
